@@ -75,3 +75,34 @@ main{
     overflow: auto;
 }
 
+
+@media only screen and (max-width: 992px)  {
+    main{
+        padding: 30px;
+        margin: 0px;
+        margin-top: 50vh;
+    }
+
+    #navbar{
+        position: absolute;
+        top:0px;
+        left: 10%;
+        width: 80%;
+        height: 50vh;
+        border-right: 0px;
+        
+        display: flex;
+
+        flex-direction: column;
+    }
+
+    #nav-header{
+        text-align: center;
+    }
+
+    #nav-items{
+        border: 2px solid;
+    }
+
+
+}
